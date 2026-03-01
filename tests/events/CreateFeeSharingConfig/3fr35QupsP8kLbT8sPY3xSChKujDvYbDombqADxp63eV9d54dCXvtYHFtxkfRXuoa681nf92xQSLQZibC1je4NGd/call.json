@@ -1,0 +1,14 @@
+{
+    "id": 1508830,
+    "signature": "3fr35QupsP8kLbT8sPY3xSChKujDvYbDombqADxp63eV9d54dCXvtYHFtxkfRXuoa681nf92xQSLQZibC1je4NGd",
+    "program_id": "pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ",
+    "discriminator": "8569aac8b874fb58",
+    "event": "CreateFeeSharingConfig",
+    "payload_len": 176,
+    "depth": 0,
+    "invocation_index": 12,
+    "reported_invocation": 1,
+    "b64": "hWmqyLh0+1hm9m9pAAAAAF2jwc4rKXPN3skPeF4foF9P2lrXvmzbpWy4gPtzh59PrCzlfXeRRGLPAKmvFhHo8VgaC7h4W5YlvK+RE1i6tJwAkqEJWjbMeG4g66Uh1cHpo6qRLPqGHYKHpBQhVze7MhPBKswbRIgZj0aMTAu/xSylw+WybP+8vns2ZvwCADs7YQEAAADBKswbRIgZj0aMTAu/xSylw+WybP+8vns2ZvwCADs7YRAnAQ==",
+    "parent_program_id": null,
+    "parent_event": null
+}

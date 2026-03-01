@@ -1,0 +1,14 @@
+{
+    "id": 1833515,
+    "signature": "52gQu9WtgxhcPcAYQfiuUN4SgbMjyQXXsFP7eTdy3VrnDxPzJmjDcfE56AxtGCYzJiEySsLrEyshYZXrR4V1RPNh",
+    "program_id": "SV2EYYJyRz2YhfXwXnhNAevDEui5Q6yrfyo13WtupPF",
+    "discriminator": "4b7542c14855f025",
+    "event": "Route",
+    "payload_len": 56,
+    "depth": 2,
+    "invocation_index": 11,
+    "reported_invocation": 3,
+    "b64": "S3VCwUhV8CXSyrcV3EtPUNCsQJvXpBqCGUobEJZVRnnQQhIBAAAAAJlxjxcAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+    "parent_program_id": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+    "parent_event": "Route"
+}

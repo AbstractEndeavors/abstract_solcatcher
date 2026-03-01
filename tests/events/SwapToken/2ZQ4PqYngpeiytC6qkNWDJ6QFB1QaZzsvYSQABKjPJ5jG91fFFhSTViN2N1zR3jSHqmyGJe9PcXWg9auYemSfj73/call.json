@@ -1,0 +1,14 @@
+{
+    "id": 1509351,
+    "signature": "2ZQ4PqYngpeiytC6qkNWDJ6QFB1QaZzsvYSQABKjPJ5jG91fFFhSTViN2N1zR3jSHqmyGJe9PcXWg9auYemSfj73",
+    "program_id": "4w3DZU3zBu7149sTmEZ2XFTNxuvuX3F9f9heQFi6YtS6",
+    "discriminator": "4ab80ac1dc9556b2",
+    "event": "SwapToken",
+    "payload_len": 125,
+    "depth": 0,
+    "invocation_index": 7,
+    "reported_invocation": 1,
+    "b64": "SrgKwdyVVrIoPLjCDwq3kj4X0oWyNdostME1yF2fHGzutf0CVOeNTyOyZcU6kGd18KHdu+NjTTcKnYVr+TFG/t6FWchzqWS1j58A3F6tS2FZobyBnLBlFj2sR6OIdusW9V6RihQoEZpJxjQAAAAAAHkQD6OKAAAAAQgAAAAxNDI5MDgyMA==",
+    "parent_program_id": null,
+    "parent_event": null
+}

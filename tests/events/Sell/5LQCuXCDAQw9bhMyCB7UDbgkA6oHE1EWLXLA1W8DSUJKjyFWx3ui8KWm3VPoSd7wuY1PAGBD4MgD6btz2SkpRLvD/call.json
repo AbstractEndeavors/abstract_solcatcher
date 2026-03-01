@@ -1,0 +1,14 @@
+{
+    "id": 1509500,
+    "signature": "5LQCuXCDAQw9bhMyCB7UDbgkA6oHE1EWLXLA1W8DSUJKjyFWx3ui8KWm3VPoSd7wuY1PAGBD4MgD6btz2SkpRLvD",
+    "program_id": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+    "discriminator": "bddb7fd34ee661ee",
+    "event": "Sell",
+    "payload_len": 259,
+    "depth": 0,
+    "invocation_index": 2,
+    "reported_invocation": 1,
+    "b64": "vdt/007mYe6R796g74DX3HQAlswE/2oBy4g8MZpdQF31yq1ppAs633qQ2RgAAAAAE6fxypwFAAAAJ8T6Nx7P1+fCNIhw25DhO+nMYZJ188Mrs8/8hAnjvZl/9m9pAAAAAKg1Oc8KAAAAIYeAvJp2AgCoiRXTAwAAACHvbXAJeAEASsL40N1cvJfjKJwZfLUGKlTz2Va5zm5RFfllZ6pcs+ZfAAAAAAAAAFRvPAAAAAAA0OKRt0c4YzM7klHNcwPcA/HU+LuwucvwzwANTdibZOEeAAAAAAAAAK8VEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAHNlbGwA",
+    "parent_program_id": null,
+    "parent_event": null
+}

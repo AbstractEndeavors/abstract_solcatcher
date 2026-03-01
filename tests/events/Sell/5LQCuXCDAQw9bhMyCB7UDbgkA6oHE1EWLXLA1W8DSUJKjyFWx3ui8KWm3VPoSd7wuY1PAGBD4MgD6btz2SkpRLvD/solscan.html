@@ -1,0 +1,30 @@
+    for row in make_list(rows):
+        raw = base64.b64decode(row["b64"])
+        disc = raw[:8]
+
+        try:
+            result = registry.decode(raw)
+            if not result:
+                raise KeyError("unknown discriminator")
+
+            category, decoded = result
+
+            # 🔑 OPTIONAL: attach PDA schema (instructions only)
+            schema = None
+            if category == "instruction":
+                schema = registry.get_instruction_schema(disc)
+
+            yield {
+                "category": category,
+                "decoded": decoded,
+                "schema": schema,   # ← PDA seeds live here
+                "row": row,
+            }
+
+        except Exception as e:
+            disc_hex = disc.hex()
+            if disc_hex not in missing:
+                missing[disc_hex] = row
+                print("Missing / failed decode:")
+                print(row)
+                get_inspect(row)

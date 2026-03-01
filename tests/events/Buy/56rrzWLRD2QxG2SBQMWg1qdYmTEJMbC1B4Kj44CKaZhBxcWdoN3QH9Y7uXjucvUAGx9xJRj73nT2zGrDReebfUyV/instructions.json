@@ -1,0 +1,193 @@
+[
+    {
+        "id": "ins-action-0",
+        "index": "1",
+        "instruction": "SetComputeUnitLimit",
+        "args": {
+            "discriminator": {
+                "type": "u8",
+                "value": 2
+            },
+            "units": {
+                "type": "u32",
+                "value": 400000
+            }
+        },
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-1",
+        "index": "2",
+        "instruction": "SetComputeUnitPrice",
+        "args": {
+            "discriminator": {
+                "type": "u8",
+                "value": 3
+            },
+            "microLamports": {
+                "type": "u64",
+                "value": 1000000
+            }
+        },
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-2",
+        "index": "3",
+        "instruction": "Unknown",
+        "args": {
+            "amount": {
+                "type": "u64",
+                "value": 12354874686838
+            },
+            "max_sol_cost": {
+                "type": "u64",
+                "value": 25253505
+            }
+        },
+        "anchor_event": {
+            "event": "tradeEvent",
+            "data": {
+                "solAmount": "25253505",
+                "tokenAmount": "12354874686838",
+                "isBuy": true,
+                "timestamp": "1768945278",
+                "virtualSolReserves": "2613037001",
+                "virtualTokenReserves": "1076836262913709",
+                "realSolReserves": "151521034",
+                "realTokenReserves": "796936262913709",
+                "feeBasisPoints": "0",
+                "fee": "0",
+                "creator": 6,
+                "creatorFeeBasisPoints": "0",
+                "creatorFee": "0",
+                "trackVolume": false,
+                "totalUnclaimedTokens": "0",
+                "totalClaimedTokens": "0",
+                "currentSolVolume": "0",
+                "lastUpdateTimestamp": "0",
+                "ixName": "buy",
+                "mayhemMode": true
+            }
+        }
+    },
+    {
+        "id": "ins-action-2-0",
+        "index": "3.1",
+        "instruction": "buy",
+        "args": {
+            "amount": {
+                "type": "u64",
+                "value": 12354874686838
+            },
+            "max_sol_cost": {
+                "type": "u64",
+                "value": 25253505
+            }
+        },
+        "anchor_event": {
+            "event": "tradeEvent",
+            "data": {
+                "solAmount": "25253505",
+                "tokenAmount": "12354874686838",
+                "isBuy": true,
+                "timestamp": "1768945278",
+                "virtualSolReserves": "2613037001",
+                "virtualTokenReserves": "1076836262913709",
+                "realSolReserves": "151521034",
+                "realTokenReserves": "796936262913709",
+                "feeBasisPoints": "0",
+                "fee": "0",
+                "creator": 6,
+                "creatorFeeBasisPoints": "0",
+                "creatorFee": "0",
+                "trackVolume": false,
+                "totalUnclaimedTokens": "0",
+                "totalClaimedTokens": "0",
+                "currentSolVolume": "0",
+                "lastUpdateTimestamp": "0",
+                "ixName": "buy",
+                "mayhemMode": true
+            }
+        }
+    },
+    {
+        "id": "ins-action-2-1",
+        "index": "3.1.1",
+        "instruction": "get_fees",
+        "args": {
+            "is_pump_pool": {
+                "type": "bool",
+                "value": true
+            },
+            "market_cap_lamports": {
+                "type": "u128",
+                "value": 2020825865
+            },
+            "trade_size_lamports": {
+                "type": "u64",
+                "value": 25253505
+            }
+        },
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-2-2",
+        "index": "3.1.2",
+        "instruction": "transferChecked",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-2-3",
+        "index": "3.1.3",
+        "instruction": "transfer",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-2-4",
+        "index": "3.1.4",
+        "instruction": "anchor Self CPI Log",
+        "args": null,
+        "anchor_event": {
+            "event": "tradeEvent",
+            "data": {
+                "solAmount": "25253505",
+                "tokenAmount": "12354874686838",
+                "isBuy": true,
+                "timestamp": "1768945278",
+                "virtualSolReserves": "2613037001",
+                "virtualTokenReserves": "1076836262913709",
+                "realSolReserves": "151521034",
+                "realTokenReserves": "796936262913709",
+                "feeBasisPoints": "0",
+                "fee": "0",
+                "creator": 6,
+                "creatorFeeBasisPoints": "0",
+                "creatorFee": "0",
+                "trackVolume": false,
+                "totalUnclaimedTokens": "0",
+                "totalClaimedTokens": "0",
+                "currentSolVolume": "0",
+                "lastUpdateTimestamp": "0",
+                "ixName": "buy",
+                "mayhemMode": true
+            }
+        }
+    },
+    {
+        "id": "ins-action-2-5",
+        "index": "3.2",
+        "instruction": "Unknown",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-3",
+        "index": "4",
+        "instruction": "transfer",
+        "args": null,
+        "anchor_event": null
+    }
+]

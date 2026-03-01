@@ -1,0 +1,14 @@
+{
+    "id": 1509479,
+    "signature": "56rrzWLRD2QxG2SBQMWg1qdYmTEJMbC1B4Kj44CKaZhBxcWdoN3QH9Y7uXjucvUAGx9xJRj73nT2zGrDReebfUyV",
+    "program_id": "MAyhSmzXzV1pTf7LsNkrNwkWKTo4ougAJ1PPg47MD4e",
+    "discriminator": "31487b2d6e40b085",
+    "event": "Buy",
+    "payload_len": 197,
+    "depth": 0,
+    "invocation_index": 2,
+    "reported_invocation": 1,
+    "b64": "MUh7LW5AsIUAootf0mq0eaapzGy/awsj62GIWjceASCsqRO+7z0TinjCBfXMMg0+Nj/D74ONxJ636WVKHHs4rsb0QW6oCIz+r4FWgQEAAAAAdr3qlzwLAABiOetnKgUAALC3PBm4TQMAUWEYp////////////////1DIiYvGPwAAAAAAAAAAAADJx7+bAAAAAK2m7npg0wMAuMEHgDMBAAAAAAAAAAAAAH72b2kAAAAAu0dxaQAAAAAKBwgJAAAAAK0O3C7P1AIABgAAAA==",
+    "parent_program_id": null,
+    "parent_event": null
+}

@@ -1,0 +1,176 @@
+[
+    {
+        "id": "ins-action-0",
+        "index": "1",
+        "instruction": "SetComputeUnitLimit",
+        "args": {
+            "discriminator": {
+                "type": "u8",
+                "value": 2
+            },
+            "units": {
+                "type": "u32",
+                "value": 111343
+            }
+        },
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-1",
+        "index": "2",
+        "instruction": "SetComputeUnitPrice",
+        "args": {
+            "discriminator": {
+                "type": "u8",
+                "value": 3
+            },
+            "microLamports": {
+                "type": "u64",
+                "value": 100000
+            }
+        },
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-2",
+        "index": "3",
+        "instruction": "collect_creator_fee",
+        "args": null,
+        "anchor_event": {
+            "event": "collectCreatorFeeEvent",
+            "data": {
+                "timestamp": "1768945254",
+                "creatorFee": "16744681"
+            }
+        }
+    },
+    {
+        "id": "ins-action-2-0",
+        "index": "3.1",
+        "instruction": "transfer",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-2-1",
+        "index": "3.2",
+        "instruction": "anchor Self CPI Log",
+        "args": null,
+        "anchor_event": {
+            "event": "collectCreatorFeeEvent",
+            "data": {
+                "timestamp": "1768945254",
+                "creatorFee": "16744681"
+            }
+        }
+    },
+    {
+        "id": "ins-action-3",
+        "index": "4",
+        "instruction": "createIdempotent",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-3-0",
+        "index": "4.1",
+        "instruction": "getAccountDataSize",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-3-1",
+        "index": "4.2",
+        "instruction": "createAccount",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-3-2",
+        "index": "4.3",
+        "instruction": "initializeImmutableOwner",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-3-3",
+        "index": "4.4",
+        "instruction": "initializeAccount3",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-4",
+        "index": "5",
+        "instruction": "collect_coin_creator_fee",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-5",
+        "index": "6",
+        "instruction": "closeAccount",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-6",
+        "index": "7",
+        "instruction": "create_fee_sharing_config",
+        "args": null,
+        "anchor_event": {
+            "event": "migrateBondingCurveCreatorEvent",
+            "data": {
+                "timestamp": "1768945254",
+                "mint": 7
+            }
+        }
+    },
+    {
+        "id": "ins-action-6-0",
+        "index": "7.1",
+        "instruction": "createAccount",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-6-1",
+        "index": "7.2",
+        "instruction": "migrate_bonding_curve_creator",
+        "args": null,
+        "anchor_event": {
+            "event": "migrateBondingCurveCreatorEvent",
+            "data": {
+                "timestamp": "1768945254",
+                "mint": 7
+            }
+        }
+    },
+    {
+        "id": "ins-action-6-2",
+        "index": "7.2.1",
+        "instruction": "anchor Self CPI Log",
+        "args": null,
+        "anchor_event": {
+            "event": "migrateBondingCurveCreatorEvent",
+            "data": {
+                "timestamp": "1768945254",
+                "mint": 7
+            }
+        }
+    },
+    {
+        "id": "ins-action-6-3",
+        "index": "7.3",
+        "instruction": "anchor Self CPI Log",
+        "args": null,
+        "anchor_event": {
+            "event": "createFeeSharingConfigEvent",
+            "data": {
+                "timestamp": "1768945254",
+                "mint": 7,
+                "shareBps": 10000
+            }
+        }
+    }
+]

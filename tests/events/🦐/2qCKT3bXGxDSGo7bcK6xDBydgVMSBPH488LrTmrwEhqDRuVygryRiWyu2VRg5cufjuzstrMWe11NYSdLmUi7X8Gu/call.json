@@ -1,0 +1,14 @@
+{
+    "id": 1504446,
+    "signature": "2qCKT3bXGxDSGo7bcK6xDBydgVMSBPH488LrTmrwEhqDRuVygryRiWyu2VRg5cufjuzstrMWe11NYSdLmUi7X8Gu",
+    "program_id": "9H6tua7jkLhdm3w8BvgpTn5LZNU7g4ZynDmCiNN3q6Rp",
+    "discriminator": "5a329eaca0a5bd68",
+    "event": "🦐",
+    "payload_len": 248,
+    "depth": 1,
+    "invocation_index": 13,
+    "reported_invocation": 2,
+    "b64": "WjKerKClvWgbWDJaowXAC2DTQy6O+CVnrgDQWR6GGLAcrneXpYLIS/F1G4rvWKU8C5OQGVO7h+OudgDex33l1UUKp5Q6jO/Vv5UvDS6eN94wSzulVKGgC/xW3GTCeByOgWtRMH78x2t9mKcEx0+H2l804ruYvH+6HFAqZ4NXRe4OilPmBZoNVkN7vUR2RfKpBB9gQA1TWO+Y8MZnn1dZ73g/L9gOW17vnvDAZ5lXX++d8MNnmldc75zwwmebV13vqUcdeVVWUu9uld7h0VdT77cifmWWV1DvNUSZZ5dXUe9FTtzHSB9Q737zyGeRV1fvlfDLZ5JXVO+V8Mpnk1dV7w==",
+    "parent_program_id": "DF1ow4tspfHX9JwWJsAb9epbkA8hmpSEAtxXy1V27QBH",
+    "parent_event": "SwapWithDestination"
+}

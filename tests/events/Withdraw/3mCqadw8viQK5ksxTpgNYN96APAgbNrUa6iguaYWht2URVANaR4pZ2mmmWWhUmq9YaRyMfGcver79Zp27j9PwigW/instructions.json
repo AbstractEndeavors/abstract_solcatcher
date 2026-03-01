@@ -1,0 +1,504 @@
+[
+    {
+        "id": "ins-action-0",
+        "index": "1",
+        "instruction": "SetComputeUnitLimit",
+        "args": {
+            "discriminator": {
+                "type": "u8",
+                "value": 2
+            },
+            "units": {
+                "type": "u32",
+                "value": 843000
+            }
+        },
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-1",
+        "index": "2",
+        "instruction": "requestHeapFrame",
+        "args": {
+            "discriminator": {
+                "type": "u8",
+                "value": 1
+            },
+            "bytes": {
+                "type": "u32",
+                "value": 65536
+            }
+        },
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-2",
+        "index": "3",
+        "instruction": "SetComputeUnitPrice",
+        "args": {
+            "discriminator": {
+                "type": "u8",
+                "value": 3
+            },
+            "microLamports": {
+                "type": "u64",
+                "value": 18692
+            }
+        },
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-3",
+        "index": "4",
+        "instruction": "createIdempotent",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-4",
+        "index": "5",
+        "instruction": "createIdempotent",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-5",
+        "index": "6",
+        "instruction": "createIdempotent",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-6",
+        "index": "7",
+        "instruction": "transfer",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-7",
+        "index": "8",
+        "instruction": "create_token_account",
+        "args": {
+            "bump": {
+                "type": "u8",
+                "value": 254
+            }
+        },
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-7-0",
+        "index": "8.1",
+        "instruction": "allocate",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-7-1",
+        "index": "8.2",
+        "instruction": "assign",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-7-2",
+        "index": "8.3",
+        "instruction": "initializeAccount3",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8",
+        "index": "9",
+        "instruction": "swap_tob",
+        "args": {
+            "order_id": {
+                "type": "u64",
+                "value": 212883
+            },
+            "amount_in": {
+                "type": "u64",
+                "value": 10000000001000
+            },
+            "expect_amount_out": {
+                "type": "u64",
+                "value": 2161298449407
+            },
+            "slippage": {
+                "type": "u16",
+                "value": 500
+            },
+            "commission_info": {
+                "type": "u32",
+                "value": 8100000
+            },
+            "platform_fee_rate": {
+                "type": "u16",
+                "value": 0
+            },
+            "trim_rate": {
+                "type": "u8",
+                "value": 100
+            }
+        },
+        "anchor_event": {
+            "event": "swapEvent",
+            "data": {}
+        }
+    },
+    {
+        "id": "ins-action-8-0",
+        "index": "9.1",
+        "instruction": "transferChecked",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-1",
+        "index": "9.2",
+        "instruction": "swap",
+        "args": {
+            "inAmount": {
+                "type": "u64",
+                "value": 5800000000580
+            },
+            "minimumOutAmount": {
+                "type": "u64",
+                "value": 1
+            }
+        },
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-2",
+        "index": "9.2.1",
+        "instruction": "transfer",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-3",
+        "index": "9.2.2",
+        "instruction": "deposit",
+        "args": {
+            "tokenAmount": {
+                "type": "u64",
+                "value": 5797100000580
+            },
+            "minimumLpTokenAmount": {
+                "type": "u64",
+                "value": 0
+            }
+        },
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-4",
+        "index": "9.2.2.1",
+        "instruction": "transfer",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-5",
+        "index": "9.2.2.2",
+        "instruction": "mintTo",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-4",
+        "index": "9.2.3",
+        "instruction": "withdraw",
+        "args": {
+            "unmintAmount": {
+                "type": "u64",
+                "value": 50091947
+            },
+            "minOutAmount": {
+                "type": "u64",
+                "value": 0
+            }
+        },
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-5",
+        "index": "9.2.3.1",
+        "instruction": "transfer",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-6",
+        "index": "9.2.3.2",
+        "instruction": "burn",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-9",
+        "index": "9.3",
+        "instruction": "anchor Self CPI Log",
+        "args": null,
+        "anchor_event": {
+            "event": "swapEvent",
+            "data": {}
+        }
+    },
+    {
+        "id": "ins-action-8-10",
+        "index": "9.4",
+        "instruction": "raydium:swap_v2",
+        "args": {
+            "discriminator": {
+                "type": "u8",
+                "value": 16
+            },
+            "amountIn": {
+                "type": "u64",
+                "value": 4200000000420
+            },
+            "minimumAmountOut": {
+                "type": "u64",
+                "value": 1
+            }
+        },
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-11",
+        "index": "9.4.1",
+        "instruction": "transfer",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-12",
+        "index": "9.4.2",
+        "instruction": "transfer",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-13",
+        "index": "9.5",
+        "instruction": "anchor Self CPI Log",
+        "args": null,
+        "anchor_event": {
+            "event": "swapEvent",
+            "data": {}
+        }
+    },
+    {
+        "id": "ins-action-8-14",
+        "index": "9.6",
+        "instruction": "closeAccount",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-15",
+        "index": "9.7",
+        "instruction": "buy",
+        "args": {
+            "amount": {
+                "type": "u64",
+                "value": 2178008714408
+            },
+            "max_sol_cost": {
+                "type": "u64",
+                "value": 95927710
+            }
+        },
+        "anchor_event": {
+            "event": "tradeEvent",
+            "data": {
+                "mint": 8,
+                "solAmount": "94728611",
+                "tokenAmount": "2178008714408",
+                "isBuy": true,
+                "timestamp": "1768945215",
+                "virtualSolReserves": "37464592722",
+                "virtualTokenReserves": "859211265010838",
+                "realSolReserves": "7464592722",
+                "realTokenReserves": "579311265010838",
+                "feeRecipient": 62,
+                "feeBasisPoints": "95",
+                "fee": "899922",
+                "creator": 61,
+                "creatorFeeBasisPoints": "30",
+                "creatorFee": "284186",
+                "trackVolume": false,
+                "totalUnclaimedTokens": "0",
+                "totalClaimedTokens": "0",
+                "currentSolVolume": "0",
+                "lastUpdateTimestamp": "0",
+                "ixName": "buy",
+                "mayhemMode": false
+            }
+        }
+    },
+    {
+        "id": "ins-action-8-16",
+        "index": "9.7.1",
+        "instruction": "get_fees",
+        "args": {
+            "is_pump_pool": {
+                "type": "bool",
+                "value": true
+            },
+            "market_cap_lamports": {
+                "type": "u128",
+                "value": 43383247564
+            },
+            "trade_size_lamports": {
+                "type": "u64",
+                "value": 94728611
+            }
+        },
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-17",
+        "index": "9.7.2",
+        "instruction": "transferChecked",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-18",
+        "index": "9.7.3",
+        "instruction": "transfer",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-19",
+        "index": "9.7.4",
+        "instruction": "transfer",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-20",
+        "index": "9.7.5",
+        "instruction": "transfer",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-21",
+        "index": "9.7.6",
+        "instruction": "anchor Self CPI Log",
+        "args": null,
+        "anchor_event": {
+            "event": "tradeEvent",
+            "data": {
+                "mint": 8,
+                "solAmount": "94728611",
+                "tokenAmount": "2178008714408",
+                "isBuy": true,
+                "timestamp": "1768945215",
+                "virtualSolReserves": "37464592722",
+                "virtualTokenReserves": "859211265010838",
+                "realSolReserves": "7464592722",
+                "realTokenReserves": "579311265010838",
+                "feeRecipient": 62,
+                "feeBasisPoints": "95",
+                "fee": "899922",
+                "creator": 61,
+                "creatorFeeBasisPoints": "30",
+                "creatorFee": "284186",
+                "trackVolume": false,
+                "totalUnclaimedTokens": "0",
+                "totalClaimedTokens": "0",
+                "currentSolVolume": "0",
+                "lastUpdateTimestamp": "0",
+                "ixName": "buy",
+                "mayhemMode": false
+            }
+        }
+    },
+    {
+        "id": "ins-action-8-22",
+        "index": "9.8",
+        "instruction": "transfer",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-23",
+        "index": "9.9",
+        "instruction": "anchor Self CPI Log",
+        "args": null,
+        "anchor_event": {
+            "event": "swapEvent",
+            "data": {}
+        }
+    },
+    {
+        "id": "ins-action-8-24",
+        "index": "9.10",
+        "instruction": "transferChecked",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-25",
+        "index": "9.11",
+        "instruction": "transferChecked",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-8-26",
+        "index": "9.12",
+        "instruction": "anchor Self CPI Log",
+        "args": null,
+        "anchor_event": {
+            "event": "swapWithFeesCpiEvent",
+            "data": {
+                "orderId": "212883",
+                "destinationMint": 8,
+                "sourceTokenChange": "10000000001000",
+                "destinationTokenChange": "2160366843822",
+                "commissionDirection": false,
+                "commissionRate": 8100000,
+                "commissionAmount": "17641870586",
+                "commissionAccount": 61,
+                "platformFeeRate": 0,
+                "platformFeeAmount": "0",
+                "platformFeeAccount": 11111111111111111111111111111111,
+                "trimRate": 100,
+                "trimAmount": "0"
+            }
+        }
+    },
+    {
+        "id": "ins-action-8-27",
+        "index": "9.13",
+        "instruction": "anchor Self CPI Log",
+        "args": null,
+        "anchor_event": {
+            "event": "swapWithFeesCpiEvent2",
+            "data": {
+                "orderId": "212883",
+                "destinationMint": 8,
+                "amountIn": "10000000001000",
+                "sourceTokenChange": "10000000001000",
+                "destinationTokenChange": "2160366843822",
+                "commissionDirection": false,
+                "commissionRate": 8100000,
+                "commissionAmount": "17641870586",
+                "commissionAccount": 61,
+                "platformFeeRate": 0,
+                "platformFeeAmount": "0",
+                "platformFeeAccount": 11111111111111111111111111111111,
+                "trimRate": 100,
+                "trimAmount": "0"
+            }
+        }
+    }
+]

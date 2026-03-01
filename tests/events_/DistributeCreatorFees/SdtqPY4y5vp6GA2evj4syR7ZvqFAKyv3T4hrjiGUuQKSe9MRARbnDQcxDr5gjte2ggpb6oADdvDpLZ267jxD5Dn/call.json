@@ -1,0 +1,14 @@
+{
+    "id": 1505178,
+    "signature": "SdtqPY4y5vp6GA2evj4syR7ZvqFAKyv3T4hrjiGUuQKSe9MRARbnDQcxDr5gjte2ggpb6oADdvDpLZ267jxD5Dn",
+    "program_id": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+    "discriminator": "a537817004b3ca28",
+    "event": "DistributeCreatorFees",
+    "payload_len": 182,
+    "depth": 0,
+    "invocation_index": 0,
+    "reported_invocation": 1,
+    "b64": "pTeBcASzyijt9W9pAAAAAI87noNNthvbC1CVP8VsyCM5Pea3cv2UzTT1ZcODqLOvG3RHINqUJ1sZJqhKhZyiJhjyJkqdP1uhf+pMrjpi/tITrAQR/clAkYoflojxBQD8BG26zpRnurzAQWw7GvZpiTz53cPfYFgjlMHCZKJ5MTgq5EyIioaza9lhTdIL59HgAQAAADz53cPfYFgjlMHCZKJ5MTgq5EyIioaza9lhTdIL59HgECeL8TsAAAAAAA==",
+    "parent_program_id": null,
+    "parent_event": null
+}

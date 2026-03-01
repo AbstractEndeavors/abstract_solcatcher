@@ -1,0 +1,14 @@
+{
+    "id": 1503620,
+    "signature": "z4Z2vySyZ5UNKu3veWU73ZzrM2oSBg7CKjreuHQJW5dwchzfhmkZvvrd3f6phemAmS1CzuyMWsHXdSGRoePtAN4",
+    "program_id": "ZERor4xhbUycZ6gb9ntrhqscUcZmAbQDjEAtCf4hbZY",
+    "discriminator": "4070001eead4537d",
+    "event": "swap",
+    "payload_len": 664,
+    "depth": 1,
+    "invocation_index": 11,
+    "reported_invocation": 2,
+    "b64": "QHAAHurUU33TTa0WZayHBUiqUcGSBCZG1WiZcSvnLHrm6gehJjoC2MS53RfjlzCwShP24y599eGOGzWmkjmKZflA+cXLa/yp2U/kyODnPr8LXRP81V2cVllyQ+xSKSnR4+QD7DjFN5Ww/t1mdIYJwBxvfpGJ31u0yZA0jtKppcJWcQAe6tVTfU1zLnDfv5tLmgg94xF3e9Fzl3H74eAxcPMTSPl+0ZYz24UNt0LXR7586BbZxcUGQZ/VoR9P/GV4Kph5rP2WBjRBpq/I4Oc+v+WpR/7VXZxWxvEh//Ns6e65Ebo2sjjYqmxLirvvhwnARtn2honfW7TJkDSO0qmlwkJwAB7q1FN9oY3Rj8u+m0sC4XbjEXd70Z1jJfnh4DFwGRJI+X7RljObxwK3QtdHvnzoFtnFxQZBn9WhH0/8ZXgqmHms/ZYGNEGmr8jg5z6/5alH/tVdnFbG8SH/82zp7rkRujayONiqbEuKu++HCcBG2faGid9btMmQNI7SqaXCQnAAHurUU32hjdGPy76bSwLhduMRd3vRnWMl+eHgMXAZEkj5ftGWM5vHArdC10e+fOgW2cXFBkGf1aEfT/xleCqYeaz9lgY0QaavyODnPr/lqUf+1V2cVsbxIf/zbOnuuRG6NrI42KpsS4q774cJwEbZ9oaJ31u0yZA0jtKppcJCcAAe6tRTfaGN0Y/LvptLAuF24xF3e9GdYyX54eAxcPXstwZ+0ZYzxsMCt0LXR75v6BbZxcUGQS/RoR9P/GV4Lph5rPyXBjTMLrNBwec+v3o6gHj0XZxWS3TwD0aTFhFMij/GB8cnVWxLirvvhwnARtn2honfW7TJkDSO0qmlwkJwAB7q1FN9oY3Rj8u+m0sC4XbjEXd70Z1jJfnh4DFw",
+    "parent_program_id": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+    "parent_event": "RouteV2"
+}

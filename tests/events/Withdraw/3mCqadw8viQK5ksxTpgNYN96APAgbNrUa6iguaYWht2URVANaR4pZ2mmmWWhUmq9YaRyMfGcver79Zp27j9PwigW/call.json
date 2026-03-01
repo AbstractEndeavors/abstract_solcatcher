@@ -1,0 +1,14 @@
+{
+    "id": 1507795,
+    "signature": "3mCqadw8viQK5ksxTpgNYN96APAgbNrUa6iguaYWht2URVANaR4pZ2mmmWWhUmq9YaRyMfGcver79Zp27j9PwigW",
+    "program_id": "24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi",
+    "discriminator": "74f461e8671f983a",
+    "event": "Withdraw",
+    "payload_len": 16,
+    "depth": 2,
+    "invocation_index": 18,
+    "reported_invocation": 3,
+    "b64": "dPRh6GcfmDqrV/wCAAAAAKz8UAMAAAAA",
+    "parent_program_id": "Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB",
+    "parent_event": "Swap"
+}

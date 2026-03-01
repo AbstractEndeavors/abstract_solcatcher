@@ -1,0 +1,14 @@
+{
+    "id": 1500419,
+    "signature": "4Lo6B3n5xSqV42go5WgNVmpR6vMg4tApr8VbxJYZz4ou7TuANiRZZkWNPJ2N9sTJJxucCko5MiVN74E4pU18gofr",
+    "program_id": "E4CKSsnjU9WXzrBJpNXnFi4gbb1kmLuavwZHd35TLeHs",
+    "discriminator": "59634e6de6fcc0e4",
+    "event": "HandleUserOperationV4",
+    "payload_len": 60,
+    "depth": 0,
+    "invocation_index": 2,
+    "reported_invocation": 1,
+    "b64": "WWNObeb8wORyEFICzVii3vn8Ue5P8E6EF9hyQXGrEDuLOopkOH+lHLWMchFC7np9hQmLFU+ppIsOMbFwPfVvaQAAAAA=",
+    "parent_program_id": null,
+    "parent_event": null
+}

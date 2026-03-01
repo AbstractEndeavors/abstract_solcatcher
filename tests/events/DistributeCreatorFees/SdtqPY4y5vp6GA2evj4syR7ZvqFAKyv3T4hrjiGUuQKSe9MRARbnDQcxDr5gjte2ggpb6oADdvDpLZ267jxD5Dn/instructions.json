@@ -1,0 +1,45 @@
+[
+    {
+        "id": "ins-action-0",
+        "index": "1",
+        "instruction": "distribute_creator_fees",
+        "args": null,
+        "anchor_event": {
+            "event": "distributeCreatorFeesEvent",
+            "data": {
+                "timestamp": "1768945133",
+                "bondingCurve": 2,
+                "sharingConfig": 2,
+                "admin": 572,
+                "address": 572,
+                "shareBps": 10000,
+                "distributed": "3928459"
+            }
+        }
+    },
+    {
+        "id": "ins-action-0-0",
+        "index": "1.1",
+        "instruction": "transfer",
+        "args": null,
+        "anchor_event": null
+    },
+    {
+        "id": "ins-action-0-1",
+        "index": "1.2",
+        "instruction": "anchor Self CPI Log",
+        "args": null,
+        "anchor_event": {
+            "event": "distributeCreatorFeesEvent",
+            "data": {
+                "timestamp": "1768945133",
+                "bondingCurve": 2,
+                "sharingConfig": 2,
+                "admin": 572,
+                "address": 572,
+                "shareBps": 10000,
+                "distributed": "3928459"
+            }
+        }
+    }
+]

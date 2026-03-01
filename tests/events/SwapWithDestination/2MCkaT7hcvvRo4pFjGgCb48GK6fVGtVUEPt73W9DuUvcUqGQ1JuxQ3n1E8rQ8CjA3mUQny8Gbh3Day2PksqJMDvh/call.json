@@ -1,0 +1,14 @@
+{
+    "id": 1506815,
+    "signature": "2MCkaT7hcvvRo4pFjGgCb48GK6fVGtVUEPt73W9DuUvcUqGQ1JuxQ3n1E8rQ8CjA3mUQny8Gbh3Day2PksqJMDvh",
+    "program_id": "MNFSTqtC93rEfYHB6hF82sKdZpUDFWkViLByLd1k1Ms",
+    "discriminator": "3ae6f2034b7104a9",
+    "event": "SwapWithDestination",
+    "payload_len": 224,
+    "depth": 1,
+    "invocation_index": 5,
+    "reported_invocation": 2,
+    "b64": "OubyA0txBKk1bkoEGCWrgl1xlFnqju9KshcZCmO9bOH3CDRRDHuwDwbEe8514YcJ+3w7ebXnxm2MVvsMjqP03XI1L4U8rEu7j+j2Bdbhx1VsN2LtvdFsH6CXLVxbqONpPh96uWTtVrQHBy8FSrSNmH2k5ZaeYyzd843WQUE0naQbC2lbkdFcOsb6evO+2606PWXzaqvJdDGxu+TC0vbg5HymAgNFL11hAIQyIi5V3A0AAAAAAAAAAPAJIwEAAAAAEK4iAQAAAADhkCMAAAAAAO2QIwAAAAAAAQAAAAAAAAAAAAAAAAAAAA==",
+    "parent_program_id": "DF1ow4tspfHX9JwWJsAb9epbkA8hmpSEAtxXy1V27QBH",
+    "parent_event": "SwapWithDestination"
+}

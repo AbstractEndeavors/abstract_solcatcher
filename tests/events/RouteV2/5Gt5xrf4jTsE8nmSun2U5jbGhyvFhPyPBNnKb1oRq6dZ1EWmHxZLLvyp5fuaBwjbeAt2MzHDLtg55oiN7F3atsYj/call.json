@@ -1,0 +1,14 @@
+{
+    "id": 1504680,
+    "signature": "5Gt5xrf4jTsE8nmSun2U5jbGhyvFhPyPBNnKb1oRq6dZ1EWmHxZLLvyp5fuaBwjbeAt2MzHDLtg55oiN7F3atsYj",
+    "program_id": "AQU1FRd7papthgdrwPTTq5JacJh8YtwEXaBfKU3bTz45",
+    "discriminator": "4b29e8a6c8accba0",
+    "event": "RouteV2",
+    "payload_len": 761,
+    "depth": 1,
+    "invocation_index": 11,
+    "reported_invocation": 2,
+    "b64": "Synopsis y6ADkbrMXRVRE3Bjr79PBvgvMNpBw6GbSwe/YqdLn+D3e9hONVyv0Vv7NmF1Fsq4wXd5Fy8c0ZsnQhYW3qE7vmiTmZePGe3P7nH2nsrgsN9pdNb+rb2zxmamHWVQm8X6aRBmCuDUhbvvtN1xcKq5FfxWtulqNVVr6BX5AZPAu7G235bW1L/jVktyxMR+zmLy7LGZuH/p82kPiyrXG212L79gFUqg/n+QsuCAcsZ64ZCOUvNwW8HZVmb92UxuT5bVG+YOk501MJic6JsFYgyQ335K6H/E10/aiEZCp/4uMUyvlRWqecxzpQRQZ+15Vh3o/uNah17twIkCyYkrYK7J9jn71iUnpPP/g1yEIe9YyhfDNVlJATo05Xx26p2DuugCK0JVew5/Izjqjiep77ubwscCGnLirvjzMqpJuZig1suduBadf2TMiTKyRNzLRU02D4wZH3+gT/TvwKqdodGGratfleTMrS62aS8AEdiFzFl9znNv+3hZ9HvHWSc9xOMj/rqO+E8eONcyPbzzO8VRgelTQaVGLSV+dHDSl7398ImzWk2DCnkW/4jdHz/3vT/GkVhCq/wfS0Qe9HGC0jKbkZypTopTNFW824L84IYfaiayW4HMFkMGhSbcEtFtJJP8ocYNXHSj2it/vXj7t/9lz+C160bXMzkIB5PhJTbm5rBtGNYNDBqXQH5JhJA60jvP7cpZr7Jw6uhqlepU7DaQqvLWVZwgi3xiQAe6FZ3Xb0ZoQBTbayRd3gLwW5zQ5hIu4TJ0RCSouh/9/JNi/rKKMvkpgBg0rV5RDCiSz/Ifv9Tbn+0DnUZbtDlfpPB+56m/1tz2X1yYKZrUEghTpJo9lqBz+8oFMlMyQrgScgX44Aq3zaYR7iTlAnM182yV9nj9EZ9kclaBm+nehwsJXDjzR7MVCBFoUWn+vhMrjpHWUQ5+uaR3IoCs7DjctD7+yT29UwTEmNpSRa3G6au7WQoQLxcj45+LfuMMtuarPq1QiZKqhXqPzalwKEp/HQ==",
+    "parent_program_id": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+    "parent_event": "RouteV2"
+}
